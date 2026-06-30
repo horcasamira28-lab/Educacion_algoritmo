@@ -1,0 +1,27 @@
+Algoritmo talleR_NonoPC
+	Definir nombre como cadena 
+	Definir costoBase,constoInicial, costoModificado Como Real
+	Definir modificacion, descuentoCliente, diagnostico, total Como Real
+	Definir dispositivo, tipoCliente Como Entero
+	//ingreso de datos
+	Escribir "taller Nono-Pc"
+	Escribir "Ingrese el nombre del cliente:"
+	Leer nombre
+	Escribir "Ingrese el costo base de la reparacion:"
+	Leer costoBase
+	costoInicial <- costoBase 
+	Escribir "tipo de dispositivo:"
+	Escribir "1-Pc/ notebook"
+	Escribir "2- celular/tablet"
+	Escribir "3- impresora"
+	leer dispositivo
+	Escribir "tipo de cliente:"
+	Escribir "1- publico general"
+	Escribir "2- Estudiante/docente"
+	Leer tipoCliente
+	modificacion <- 0
+	descuentoCliente <- 0
+	diagnostico <- 0
+	costoModificado <- costoBase
+	//modificacion de dispositivo segun dispositivo hacer 
+	
